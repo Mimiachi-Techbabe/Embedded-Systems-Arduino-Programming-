@@ -4,26 +4,26 @@ PROJECTS
 
 The 7 segment display is on the upper right corner of the board. It has 7 segments and ‘a dot’
 which can be noted by numbers from 0 to 7. Each number represents a pin from the arduino connected to the 7-segment display. To display a specific character or digit, we would need to turn out the segments that would form it. For example, to show the number ‘1’ we
-should turn on segments 1 and 2, meaning all the other segments should be off(by setting them to LOW)
+should turn on segments 1 and 2, meaning all the other segments should be off(by setting them to LOW). The practical uses of the 7 segment display are in digital clocks, electronic meters and calculators.
 
 
 2. LED
 LED
 This project uses the LED1 on the board. We will use the arduino to turn the LED on and off.
-Connect the board to the laptop and upload the following code. 
+Connect the board to the laptop and upload the code. The practical uses of the LED can be in stimulating traffic lights.
 
 RGB_LED
-Project is depicts how to control an RGB LED which has three different colors in one LED,
-using the arduino. The colors are red, green and blue. We will use the pins connected to the LED to turn on one color and the other off.
+This Project depicts how to control an RGB LED which has three different colors in one LED,
+using the arduino board. The colors are red, green and blue. We will use the pins connected to the LED to turn on one color and the other off.
 We define the pins that are connected to the RGB LED thereafter setting them as outputs. In
 our loop we set one of the pins to ‘High’ whilst setting the other to low and wait for half a second
-before changing the pin to set to ‘High’.
+before changing the pin to set to ‘High’. The practical uses of the LED can be in stimulating traffic lights and in various vehicles lighting.
 
 
 3.MIC_LCD
 In this project, We are goint to show how to print text on the liquid crystal display which is the largest screen
 on the Arduino board. It contains 2 rows and 16 columns, holding text with a maximum of 16
-characters for each column. It was incorporated with the MIC. Once the MIC picks a sound of <250, the LCD must turn on.
+characters for each column. It was incorporated with the MIC. Once the MIC picks a sound of <250, the LCD must turn on. The practical uses of the LCD is in calculators, monitors,digital cameras microwaves and other electronic devices.
 
 4.OLED_Light A3
 The OLED is the screen on the right side of the LEDs at the bottom. Displaying the text on the screen consists of selecting the cursor position (set in pixels), entering the text, and then "sending" all information to the screen. The Project also incorporated the light sensor.
