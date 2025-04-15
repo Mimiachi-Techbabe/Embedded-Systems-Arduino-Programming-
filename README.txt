@@ -33,7 +33,7 @@ We can control the brightness of the LED using a Potentiometer. A Potentiometer 
 
 
 6.Push_Button_7_Segment_Display_OLED_Buzzer
-In this project, We are using push Buttons to start the count on the 7-Segment, and only the number 9 is used. Once the Middle button on the board is pressed, it counts 9, and the Buzzer turns on. Then,once the upper Button is pushed, the 7-segment is turned off with the Buzzer, then the oled Screen prints "WIN WIN". This simple project was depicting how a microwave works by pressing a specific button to start the count, then once its done, the buzzer turns on to notify the user that it is done and it prints specific text on the screen, then the user presses another button to open the microwae door.
+In this project, We are using push Buttons to start the count on the 7-Segment, and only the number 9 is used. Once the Middle button on the board is pressed, it counts 9, and the Buzzer turns on. Then,once the upper Button is pushed, the 7-segment is turned off with the Buzzer, then the oled Screen prints "WIN WIN". This simple project was depicting how a microwave works by pressing a specific button to start the timer, then once its done, the buzzer turns on to notify the user that it is done and it prints specific text on the screen, then the user presses another button to open the microwave door.
 
 7.Serial_Monitor
 The Arduino IDE has a feature that can be a great help in debugging sketches or controlling Arduino from your computer's keyboard. The Serial Monitor is a separate pop-up window that acts as a separate terminal that communicates by receiving and sending Serial Data. 
