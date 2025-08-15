@@ -1,8 +1,8 @@
-PROJECTS
+PROJECTS (USING AN ARDUINO BOARD)
 
 1. 7 Segment Dispaly
 
-The 7 segment display is on the upper right corner of the board. It has 7 segments and ‘a dot’
+The 7 segment display is on the upper right corner of the arduino board. It has 7 segments and ‘a dot’
 which can be noted by numbers from 0 to 7. Each number represents a pin from the arduino connected to the 7-segment display. To display a specific character or digit, we would need to turn out the segments that would form it. For example, to show the number ‘1’ we
 should turn on segments 1 and 2, meaning all the other segments should be off(by setting them to LOW). The practical uses of the 7 segment display are in digital clocks, electronic meters and calculators.
 
@@ -21,7 +21,7 @@ before changing the pin to set to ‘High’. The practical uses of the LED can 
 
 
 3.MIC_LCD
-In this project, We are goint to show how to print text on the liquid crystal display which is the largest screen
+In this project, We are going to show how to print text on the liquid crystal display which is the largest screen
 on the Arduino board. It contains 2 rows and 16 columns, holding text with a maximum of 16
 characters for each column. It was incorporated with the MIC. Once the MIC picks a sound of <250, the LCD must turn on. The practical uses of the LCD is in calculators, monitors,digital cameras microwaves and other electronic devices.
 
@@ -47,3 +47,4 @@ Using the temperature sensor marked A2, we are going to print the room temperatu
 
 In the setup we start by specifying the column and row values, 16 and 2. We set the cursor to 0,0 and print the text ‘TEMP [C]:’ which will not change unlike the temperature value below it.In the loop analogRead specifies the target A2 which is the temperature sensor. The cursor is set at (0,1) which is where the temperature read by the temperature sensor will be printed every
 200 milliseconds. Temperature Censors are widely used in environmental heating equipment, ovens, phones(to depict temperature), airconditioners, etc.
+
